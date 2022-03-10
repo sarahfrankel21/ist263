@@ -1,0 +1,13 @@
+body{font-family: 'Georgia, Times New Roman', serif; background-color:#FEECE9;}
+h1, h2{color: #FE7E6D;}
+h1{font-size:3em;}
+h2{font-size: 1em;}
+.evenrow{background-color:crimson;}
+nav{color: #FC997C }
+a{color: #396EB0;}
+nav a {color: #488FB1;}
+nav a:hover {background-color: #CCD1E4;}
+h1 {font-family:'Times New Roman', serif;}
+p,ul,td,th {color:#2F3A8F}
+nav {padding:10 px;} 
+nav {margin-bottom: 30px}
