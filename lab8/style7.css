@@ -1,0 +1,19 @@
+body{font-family: 'Georgia, Times New Roman', serif; background-color:#FEECE9;}
+h1, h2{color: #FE7E6D;}
+h1{font-size:3em;}
+h2{font-size: 1em;}
+.evenrow{background-color:crimson;}
+nav{color: #FC997C }
+a{color: #396EB0;}
+nav a {color: #488FB1;}
+nav a:hover {background-color: #CCD1E4;}
+h1 {font-family:'Times New Roman', serif;}
+p,ul,td,th {color:#2F3A8F}
+nav {padding:10 px;} 
+nav {margin-bottom: 30px}
+.header1{flex: 2; order: 3; background-color: #43D7CD; border-radius: 1em; padding: 5em;}  
+.address{float: left; margin: 20px};
+.link{float: right; margin: 20px};
+.header2{flex: 1; background-color: #AB43D7; border-radius: 1em; padding: 10em;} 
+.map{float: right; margin: 20px};
+.form {float: left; margin: 20px};     
