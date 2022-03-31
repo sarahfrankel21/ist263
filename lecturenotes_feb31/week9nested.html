@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.row1{ 
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content:flex-end;
+}
+.row2{ 
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.row1 div, .row2 div, .row3 div {
+margin: 10px;
+}
+.row3{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    justify-content: space-between; /* justify content is awlways on the flex row*/
+}
+.firstinner, .secondinner { display: flex;
+}
+</style>
+
+</head>
+<body>
+    <div class="row1">
+        <div> home</div> 
+        <div> about us</div>
+        <div> products </div>
+        <div> content</div>
+    </div>
+    <div class="row2">
+        <div> home</div> 
+        <div> about us</div>
+        <div> products </div>
+        <div> content</div>
+    </div>
+    <div class= "row3">
+        <div> 
+            <div class="firstinner">
+                <div>home </div>
+                <div> about us </div>
+                <div> products </div>
+                <div> content </div>
+            </div>
+        </div> 
+
+        <div> 
+            <div class="secondinner">  
+                <div>twitter </div>
+                <div> facebook</div>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
