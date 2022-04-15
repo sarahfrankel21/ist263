@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #skip{
+            position: absolute; /* this means to take it out of page flow and use left tage to set it into position */
+            left:-999px;
+            background-color: orange;
+            padding: 5px;
+        }
+        #skip:focus
+        {
+            left: 10px;
+        }
+/*
+1. html link to anchor to our content
+2. put an id link attribute into the place you want the anchor to go to 
+3. hide and show skip to cntent 
+4. style the skip the content area 
+
+*/
+
+    </style>
+</head>
+<body>
+    <nav> 
+        <a href="#content" id="skip"> Skip to content</a>
+        <a href="https://www.twitter.com"tabindex="4">twitter</a>
+        <a href="index.html" tabindex="1">home</a>
+        <a href="skills.html" tabindex="2">skills</a>
+        <a href="contact.html"tabindex="3">contact</a>
+
+        </nav>
+        <main> 
+            <h1> Accessibility </h1>
+            <h2> semantic tags</h2>
+            <h3> aside</h3>
+            <h3> nav</h3>
+            <h3> footer</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nemo ex sequi, saepe maxime voluptate nesciunt quo eum, officiis iure voluptatibus rem velit fugiat. Libero deleniti cumque dolorum culpa officia?</p>
+            <h2> heading tags in Hierarchy</h2>
+        </main>
+        <footer id="content"> 
+           <p> im so tired i cant do this i might fall asleep </p> 
+        </footer>
+</body>
+</html>
