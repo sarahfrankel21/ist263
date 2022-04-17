@@ -16,10 +16,11 @@ nav {margin-bottom: 30px}
 .link{float: right; margin: 20px;}
 .header2{flex: 1; background-color: #332092; border-radius: 1em; padding: 10em;} 
 .map{float: right; margin: 5px;}
-.form {float: left; margin: 5px;}   
+.form {float: left; margin: 5px; font-family: 'Georgia, Times New Roman', serif; color: #FFA3F4; }   
 .footerz {float: right;}
 .whole{display:flex;margin-top: 10px; justify-content: space-between;}
 .tech {text-align: center;}
 .img, .skill{display: flex;}
 .img{display:flex;justify-content: left;}
+
 .skill{display:flex;justify-content: right;background-color: #43D7CD; border-radius: 10px; padding: 10px;}
