@@ -16,7 +16,7 @@ nav {margin-bottom: 30px}
 .link{float: right; margin: 20px;}
 .header2{flex: 1; background-color: #89F546; border-radius: 1em; padding: 10em;} 
 .map{float: right; margin: 5px;}
-.form {float: left; margin: 5px; font-family: 'Georgia, Times New Roman', serif; color: #FFA3F4; }   
+.form {float: left; margin: 5px; font-family: 'Georgia, Times New Roman', serif; color: #3908B9; }   
 .footerz {float: right;}
 .whole{display:flex;margin-top: 10px; justify-content: space-between;}
 .tech {text-align: center;}
