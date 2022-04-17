@@ -14,7 +14,7 @@ nav {margin-bottom: 30px}
 .header1{flex: 2; order: 3; background-color:  #FFA3F4; border-radius: 1em; padding: 5em;}  
 .address{float: left; margin: 20px;}
 .link{float: right; margin: 20px;}
-.header2{flex: 1; background-color: #332092; border-radius: 1em; padding: 10em;} 
+.header2{flex: 1; background-color: #89F546; border-radius: 1em; padding: 10em;} 
 .map{float: right; margin: 5px;}
 .form {float: left; margin: 5px; font-family: 'Georgia, Times New Roman', serif; color: #FFA3F4; }   
 .footerz {float: right;}
