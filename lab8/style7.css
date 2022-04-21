@@ -18,3 +18,8 @@ nav {margin-bottom: 30px}
 .map{float: right; margin: 5px;}
 .form {float: left; margin: 5px;}   
 .footerz {float: right;}
+.whole{display:flex;margin-top: 10px; justify-content: space-between;}
+.tech {text-align: center;}
+.img, .skill{display: flex;}
+.img{display:flex;justify-content: left;}
+.skill{display:flex;justify-content: right;background-color: #43D7CD; border-radius: 10px; padding: 10px;}

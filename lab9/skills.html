@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
     <style>
         table,
@@ -16,9 +16,18 @@
     .img{display:flex;justify-content: left;}
     .skill{display:flex;justify-content: right;background-color: #43D7CD; border-radius: 1em; padding: 5em;} 
     .img, .skill{display: flex;}
+    @media only screen and (max-width:800px){
+            .whole{background-color: lightblue;}
+                .img{display: none;}
+            }
+            @media only screen and(min-width:800px){
+                .skill{display:none;}}
+
+    @media only screen and (max-width:600px){
+                nav a {display: block;background-color: #FFA3F4;}}
+
     </style>
     <link rel="stylesheet" href="style7.css">
-
 </head>
 <body>
     <nav> <a href= "index.html">HOME</a>|<a href= "contact.html">CONTACT</a>|<a href= "skills.html">SKILLS</a> </nav>
@@ -28,7 +37,6 @@
         <p> <strong> TECHNICAL SKILLS </strong> </p>
         <p>hello my name is sarah frankel and here are some skills that i have been developing. I ranked their Application and how much i enjoy Developing them.</p>
     </div>
-    
         <div class= "whole"> 
             <div class="img">
                 <div><img scr=svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"  width= "100px" height="100px"></svg><p> HTML</p></div> 
@@ -46,9 +54,7 @@
                 windows<br> 
                 anxiety<br>
             </div>
-
-    </div>
-        
+    </div>   
         <tr class="evenrow">
             <th> type</th>
             <th> enjoyable </th>
