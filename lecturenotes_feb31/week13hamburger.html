@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamburger</title>
+<!--
+css 
+large no hamburger 
+small needs Hamburger 
+large the nav is side by side 
+small nav stacks and disappears 
+
+java
+shows staked on nav click 
+hide nav in second click 
+
+-->
+<style>
+#ham{
+    width: 40px;
+    display: none; 
+}
+#navlinks a{
+background-color: blue;
+margin: 5px;
+padding: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    #ham {display: block;}
+    #navlinks a {display:block;}
+    #navlinks{display: none;}
+}
+
+</style>
+<script>
+    function toggleNav() {
+        if(document.getElementById("navLinks").style.getPropertyValue("display")=='block'){
+            document.getElementById("navLinks").style.display="none";
+
+        } else{
+         document.getElementById("navlinks").style.display="block";
+    }}
+
+</script>
+</head>
+<body>
+    <img src="https://laferger.github.io/ist263/images/hamburger.png" id="ham"
+    onclick="toggleNav();"><br>
+    <div class="navlinks"> 
+    <a href="index.html">Home </a>
+    <a href="skills.html">skills </a>
+    <a href="contact.html">contact </a>
+</div>
+</body>
+</html>
