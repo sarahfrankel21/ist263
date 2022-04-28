@@ -16,6 +16,7 @@
             width: 1200px;
             margin: auto; /* margin auto is centering this container */        
         }
+
         #bigimages {margin-right: 100px;}
         #planetinfo {padding: 100px;}
         #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
@@ -26,6 +27,9 @@
 #venus,#earth,#mars,#jupiter,#saturn,#uranus,#neptune{display:none;}
         .bigimages{
             float:left;
+        }
+        .planetinfo{
+            float:right;
         }
 
     .stopfloating {clear: both;}
@@ -73,7 +77,12 @@
             document.getElementById('saturn').style.display='none';
             document.getElementById('uranus').style.display='none';
             document.getElementById('neptune').style.display='none';
-        }        
+        }       
+
+        function BIG() {
+        if(document.getElementById("bigimages").style.getPropertyValue("display")=='block'){
+            document.getElementById("bigimages").style.display="none";}}
+
         </script>
 </head>
 <body>
