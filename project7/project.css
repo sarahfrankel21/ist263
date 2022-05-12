@@ -3,20 +3,24 @@ h1, h2{color: #0A7E0B;}
 h1{font-size:3em;}
 h2{font-size: 1em;}
 .evenrow{background-color:crimson;}
-nav {
+nav {position: sticky;
     position: center;
     top: 0;
     max-width: 100vw;
     color:#f542c8;
-
 }
 a{color:#f542c8;}
-nav a {color: #f542c8;}
+nav a {color: #f542c8;position: sticky;
+    top: 0;}
 nav a:hover {background-color: #CCD1E4;}
 h1 {font-family:'Times New Roman', serif;}
 p,ul,td,th {color:#2F3A8F}
-nav {padding:10 px;} 
-nav {margin-bottom: 30px}  
+nav {padding:10 px;
+    position: sticky;
+    top: 0;} 
+nav {margin-bottom: 30px;
+    position: sticky;
+    top: 0;}  
 .address{float: left; margin: 20px;}
 .link{float: right; margin: 20px;}
 .map{float: right; margin: 5px;}

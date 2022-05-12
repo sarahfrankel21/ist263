@@ -1,12 +1,7 @@
-html, body {
-    background-color: var(--bkg);
-    color: var(--txt)
-}
+
 
 body { font-family: 'Noto Serif Display', serif; background-color:#C7F0ED;
     margin: 0;
-    line-height: 1.5rem;
-    min-height: 100vh;
 }
 
 img {
@@ -21,7 +16,8 @@ nav {
     position: center;
     top: 0;
     max-width: 100vw;
-    color:red;
+ position: sticky;
+    top: 0;
 
 }
 
