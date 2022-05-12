@@ -1,0 +1,29 @@
+html, body {
+    background-color: var(--bkg);
+    color: var(--txt)
+}
+
+body { font-family: 'Noto Serif Display', serif; background-color:#C7F0ED;
+    margin: 0;
+    line-height: 1.5rem;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100;
+}
+ol li {
+    display: block;
+    height: 20px
+}
+
+nav {
+    position: center;
+    top: 0;
+    max-width: 100vw;
+    color:red;
+
+}
+
+
+
